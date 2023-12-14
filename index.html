@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CHARGE Edu-Tech Virtual Internship Program</title>
+	<link rel="icon" href="background-image.ico">
+	<style>
+		body {
+			font-family: "Helvetica Neue", Arial, sans-serif;
+			background-color: #f2f2f2;
+			color: #333;
+		}
+		.container {
+			width: 80%;
+			margin: 0 auto;
+			background-color: #fff;
+			padding: 20px;
+			border-radius: 5px;
+			box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+			text-align: center;
+		}
+		h1 {
+			font-size: 36px;
+			color: #333;
+			margin-top: 0;
+			text-transform: uppercase;
+		}
+		p {
+			font-size: 18px;
+			line-height: 1.5;
+			margin-bottom: 20px;
+		}
+		ul {
+			font-size: 18px;
+			line-height: 1.5;
+			margin-bottom: 20px;
+			list-style-type: none;
+			padding: 0;
+		}
+		ul li:before {
+			content: "✓";
+			margin-right: 10px;
+			color: #4CAF50;
+		}
+		form {
+			margin-top: 30px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
+		label {
+			font-size: 18px;
+			font-weight: bold;
+			margin-bottom: 10px;
+		}
+		input, textarea {
+			padding: 10px;
+			margin-bottom: 20px;
+			border-radius: 5px;
+			border: none;
+			box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+			width: 100%;
+			font-size: 16px;
+			color: #333;
+			background-color: #f8f8f8;
+		}
+		textarea {
+			height: 100px;
+		}
+		button {
+			background-color: #4CAF50;
+			color: #fff;
+			border: none;
+			border-radius: 5px;
+			padding: 10px 20px;
+			font-size: 18px;
+			cursor: pointer;
+			box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+			transition: background-color 0.2s ease-in-out;
+		}
+		button:hover {
+			background-color: #3e8e41;
+		}
+		img {
+			width: 150px;
+			margin: 20px auto;
+			display: block;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<img src="background-image.png" alt="Company Logo">
+		<h1>CHARGE Edu-Tech Virtual Internship Program</h1>
+		<p>Gain industrial experience and knowledge in your respective domain with our 4-week virtual internship program. Develop your resume and LinkedIn account building skills while gaining valuable experience.</p>
+		<p>Perks you will receive:</p>
+		<ul>
+			<li>Offer Letter from CHARGE Edu-Tech</li>
+			<li>Internship Certificate</li>
+			<li>Resume Building Support</li>
+			<li>Placement Support</li>
+			<li>Letter of recommendation based on Performance</li>
+		</ul>
+		<form action="index.php" method="POST">
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name" placeholder="Enter your full name" required>
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" placeholder="Enter your email address" required>
+			<label for="phone">Phone:</label>
+			<input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+			<label for="college">College/University:</label>
+			<input type="text" id="college" name="college" placeholder="Enter your college/university name" required>
+			<label for="major">Major/Field of study:</label>
+			<input type="text" id="major" name="major" placeholder="Enter your major/field of study" required>
+			<label for="semester">Semester:</label>
+			<input type="number" id="semester" name="semester" placeholder="Enter your semester" required>
+			<label for="domain">Domain:</label>
+			<input type="text" id="domain" name="domain" placeholder="Enter your preferred domain" required>
+			<label for="message">Message:</label>
+			<textarea id="message" name="message" placeholder="Enter any additional message"></textarea>
+			<button type="submit">Apply Now</button>
+		</form>
+	</div>
+</body>
+</html>
